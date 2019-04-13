@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css1/styles.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -13,15 +14,16 @@
 
   <!-- The form -->
   <form class="example" action="action_page.php">
-    <input type="text" placeholder="Search.." name="search">
     <button type="submit"><i class="fa fa-search"></i></button>
   </form>
 
   <div class="container">
 
     <h1>Travel Blog</h1>
+
     <div class="topnav">
-      <a class="active" href="#home">Asia</a>
+      <a class="active" href="#home">Home</a>
+      <a href="#news">Asia</a>
       <a href="#news">Europe</a>
       <a href="#contact">Africa</a>
       <a href="#about">Caribbean</a>
@@ -33,8 +35,8 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="images/picture1.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 id="carouselheader">Explore More</h5>
+          <div class="carousel-caption">
+          <a href="https://www.google.co.uk/" target="_blank"><button type="button" class="btn btn-default" id="carouselbutton1">Explore More</button></a>
           </div>
         </div>
         <div class="carousel-item">
@@ -45,9 +47,15 @@
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/picture3.jpg" alt="Third slide">
+          <div class="carousel-caption">
+          <a href="https://www.google.co.uk/" target="_blank"><button type="button" class="btn btn-default" id="carouselbutton2">Explore More</button></a>
+          </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="images/picture4.jpg" alt="Second slide">
+          <div class="carousel-caption">
+          <a href="https://www.google.co.uk/" target="_blank"><button type="button" class="btn btn-default" id="carouselbutton3">Explore More</button></a>
+          </div>
         </div>
       </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -60,14 +68,45 @@
   </a>
     </div>
   </div>
-    <form class='form'>
-      <label for="email">email us</label>
-      <input type="text" name="email" >
-      <button type="submit">Send</button>
-    </form>
+  <div class="whatwedo">
+    <p1> Every week we explore interesting countries, choose two and show their main attractions, culture, food and traditions. This week we decided to explore Georgia and Jamaica, as we come from those two countries </p1>
+</div>
+<div class="row">
+  <div class="column1">
+    <div class="card1">
+      <img src="images/beach-ocho-rios.jpg" alt="ocho rois" style="width:100%">
+      <div class="container1">
+        <p><button class="button">Jamaica</button></p>
+      </div>
+    </div>
   </div>
+  <div class="column1">
+    <div class="card1">
+      <img src="images/kazbegi.jpg" alt="kazbegi" style="width:100%">
+      <div class="container1">
+        <p><button class="button">Georgia</button></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="AboutUs">
+    <div class="w3-content" style="max-width:700px">
+    <h3 id="aboutus"> About Us </h3>
+      <div class="w3container" id="about">
+    <p4>We are Ana and Jenea, we are very passionate about travelling and always wanted to share our experiences with others. Recently, our hobby became web-development, so we decided to create a website</p4>
+      </div>
+  </div>
+ </div>
+  <div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+</div>
 
-  <div id="buzz">
+
+
+
+  <!--<div id="buzz">
     <h2><small>The Buzz</small><br />What are people saying?</h2>
     <div>
       <img src='images/person.jpg'>
@@ -102,11 +141,13 @@
   </div>
 </div>
 </div>
+-->
+
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
 
 </body>

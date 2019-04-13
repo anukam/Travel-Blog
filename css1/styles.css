@@ -19,7 +19,7 @@ ol li {
 }
 */
 h1 {
-  color: #296159;
+  color: #39C1BD;
   text-align: center;
   text-decoration: line-through;
   text-decoration-color: white;
@@ -51,44 +51,55 @@ h1 {
 }
 #carouselbutton {
   background-color: rgba(255,255,255,0.3);
-  color: #135831;
+  color: black;
   font-family: courier;
   font-weight: bold;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: transparent;
+#carouselbutton1 {
+  background-color: rgba(255,255,255,0.3);
+  font-family: courier;
+  font-weight: bold;
 }
+#carouselbutton2 {
+  background-color: rgba(255,255,255,0.3);
+  font-family: courier;
+  font-weight: bold;
+  }
+#carouselbutton3 {
+  background-color: rgba(255,255,255,0.3);
+  font-family: courier;
+  font-weight: bold;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: transparent;
   overflow: hidden;
+  font-family: baskerville, times, serif;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
   font-size: 17px;
   line-height: 0.5;
+  color: #39C1BD
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #296159;
+  background-color: #39C1BD;
   color: white;
 }
 
 /*  */
 .topnav a.active {
-  background-color: #296159;
+  background-color: #39C1BD;
   color: white;
 }
 
@@ -112,21 +123,140 @@ form.example button {
   float: left;
   width: 5%;
   padding: 5px;
-  background: #296159;
+  background: #39C1BD;
   color: white;
   font-size: 15px;
   border: 1px solid grey;
   border-left: none; /* Prevent double borders */
-  cursor: pointer;
+  cursor: alias;
 }
 
 form.example button:hover {
-  background: #0b7dda;
+  background: #296159;
 }
 
 /* Clear floats */
 form.example::after {
   content: "";
   clear: both;
+  disp
+}
+
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: auto;
+  padding-bottom: 0px;
+}
+
+/* Some left and right padding inside the container */
+.container1 {
+
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #39C1BD;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #39C1BD;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: baskerville, times, serif;
+  letter-spacing: 2px;
+}
+
+.button:hover {
+  background-color: #b0dbbf;
+}
+.whatwedo {
+  padding-top: 75px;
+  padding-right: 100px;
+  padding-bottom: 70px;
+  padding-left: 75px;
+  font-size: 30px;
+  color: #bcbe00;
+  letter-spacing: 2px;
+  text-align: center;
+  font-style: italic;
+  margin: 10;
+  word-wrap: break-word;
+  font-family: baskerville, times, serif;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: run-in;
+  text-align: center;
+  padding: 3px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #296159;
+}
+
+.facebook {
+  background:#58deda;
+  color: black;
+}
+
+.twitter {
+  background: #58deda;
+  color: white;
+}
+
+.instagram {
+  background: #58deda;
+  color: white;
+}
+
+.AboutUs {
+  padding-top: 20px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+font-size: 30px;
+color: #39C1BD;
+letter-spacing: 2px;
+text-align: center;
+font-style: italic;
+word-wrap: break-word;
+font-family: "futura",helvetica,sans-serif;
+padding-top: 0px;
+}
+#aboutus {
+  font-family: "futura",helvetica,sans-serif;
+  font-size: 17px;
+  background-image: url("https://3h854h1ibj2x19g1cg3nclgc-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/learn-more-border.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 194px;
   display: table;
+  width: 194px;
+  margin: 0 auto;
+  max-height: 73px;
+  padding: 26px 0;
+  color: #39C1BD;
+  letter-spacing: 3px;
+  padding-bottom: 50px;
+}
+#about {
+  border-style: dashed;
 }

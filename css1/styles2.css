@@ -109,7 +109,7 @@ form.example button {
   width: 50%;
   background: transparent;
   color: #2a5e50;
-  
+
 }
 form.example button:hover {
   background: #296159;
@@ -192,17 +192,17 @@ width:300px;
 }
 
 .facebook {
-  background:#38a282;
+  background:#2a886b;
   color: white;
 }
 
 .twitter {
-  background: #38a282;
+  background: #2a886b;
   color: white;
 }
 
 .instagram {
-  background: #38a282;
+  background: #2a886b;
   color: white;
 }
 .whatwedo {

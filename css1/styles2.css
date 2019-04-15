@@ -32,20 +32,22 @@ h1 {
   border-width: thin;
 
 }
+
 .NightLife {
   font-family: baskerville, times, serif;
   border-bottom: solid;
   color: #2a5e50;
   border-width: thin;
 }
+
 .col-4 {
   text-align: center;
 }
+
 #Tbs {
   padding-top: 10px;
   color:#2a5e50;
   font-family: Times;
-
 }
 
 .topnav {
@@ -55,7 +57,6 @@ h1 {
   padding-top: 30px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: black;
@@ -65,28 +66,22 @@ h1 {
   font-size: 17px;
   line-height: 0.5;
   color: #2a5e50;
-
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #2a5e50;
   color: white;
 }
 
-/*  */
 .topnav a.active {
   background-color: #2a5e50;
   color: white;
 }
 
-
-  * {
+* {
   box-sizing: border-box;
 }
 
-
-/* Style the submit button */
 form.example button {
   float:right;
   background: #2a5e50;
@@ -98,8 +93,6 @@ form.example button {
   height: 25px;
 }
 
-
-/* search styles */
   form.example input[type=text] {
   float:right;
   height:25px;
@@ -109,18 +102,16 @@ form.example button {
   width: 50%;
   background: transparent;
   color: #2a5e50;
-
 }
+
 form.example button:hover {
   background: #296159;
 }
 
-/* Clear floats */
 form.example::after {
   content: "";
   clear: both;
 }
-
 
 #searchBox{
   float: right;
@@ -136,9 +127,7 @@ form.example::after {
   padding-bottom: 0px;
 }
 
-/* Some left and right padding inside the container */
 .container1 {
-
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -168,14 +157,13 @@ width:300px;
   font-family: baskerville, times, serif;
   letter-spacing: 2px;
 }
+
 .icon-bar {
   text-align:center;
   padding-bottom: 30px;
   padding-top: 30px;
-
 }
 
-/* Style the icon bar links */
 .icon-bar a {
   display: run-in;
   text-align: center;
@@ -184,9 +172,11 @@ width:300px;
   color: white;
   font-size: 20px;
 }
+
 .button:hover {
   background-color: #b0dbbf;
 }
+
 .icon-bar a:hover {
   background-color: #296159;
 }
@@ -205,6 +195,7 @@ width:300px;
   background: #2a886b;
   color: white;
 }
+
 .whatwedo {
   padding-top: 30px;
   padding-right: 100px;

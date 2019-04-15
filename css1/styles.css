@@ -1,23 +1,4 @@
-/*
-h1 {
-  color:red;
-}
-p {
-  color:blue;
-  font-family: Helvetica;
-  font-size: 16px;
-}
-ul li {
-  background-color: yellow;
-}
-h2 {
-  background-color: orange;
-  color: green;
-}
-ol li {
-  background-color: teal;
-}
-*/
+
 h1 {
   color: #2a5e50;
   text-align: center;
@@ -49,6 +30,7 @@ h1 {
    font-weight: bold;
 
 }
+
 #carouselbutton {
   background-color: rgba(255,255,255,0.3);
   color: black;
@@ -61,18 +43,19 @@ h1 {
   font-family: courier;
   font-weight: bold;
 }
+
 #carouselbutton2 {
   background-color: rgba(255,255,255,0.3);
   font-family: courier;
   font-weight: bold;
   }
+
 #carouselbutton3 {
   background-color: rgba(255,255,255,0.3);
   font-family: courier;
   font-weight: bold;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: transparent;
   overflow: hidden;
@@ -80,7 +63,6 @@ h1 {
   padding-top: 30px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: black;
@@ -92,32 +74,27 @@ h1 {
   color: #2a5e50;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #2a5e50;
   color: white;
 }
 
-/*  */
 .topnav a.active {
   background-color: #2a5e50;
   color: white;
 }
 
-
   * {
   box-sizing: border-box;
 }
 
-
-/* Style the submit button */
 form.example button {
   float:right;
   background: #2a5e50;
   color: white;
   font-size: 15px;
   border: 1px;
-  border-left: none; /* Prevent double borders */
+  border-left: none;
   cursor: alias;
   height: 25px;
 }
@@ -125,11 +102,11 @@ form.example button {
 #searchBox {
   padding-top: 30px;
 }
-/* search styles */
+
   form.example input[type=text] {
   float:right;
-   height:25px;
-   min-width:100px;
+  height:25px;
+  min-width:100px;
   font-size: 15px;
   border: 1px;
   width: 10%;
@@ -137,18 +114,15 @@ form.example button {
   color: #2a5e50;
 }
 
-
 form.example button:hover {
   background: #296159;
 }
 
-/* Clear floats */
 form.example::after {
   content: "";
   clear: both;
   disp
 }
-
 
 #searchBox{
   float: right;
@@ -163,9 +137,7 @@ form.example::after {
   padding-bottom: 0px;
 }
 
-/* Some left and right padding inside the container */
 .container1 {
-
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -214,11 +186,8 @@ width:300px;
 
 .icon-bar{
   text-align:center;
-
-
 }
 
-/* Style the icon bar links */
 .icon-bar a {
   display: run-in;
   text-align: center;
@@ -228,7 +197,6 @@ width:300px;
   font-size: 20px;
 }
 
-/* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   background-color: #296159;
 }
@@ -250,8 +218,8 @@ width:300px;
 
 .w3-content{
   display: table-cell; vertical-align: middle;
-
 }
+
 .AboutUs {
   padding-top: 20px;
   padding-bottom: 30px;
@@ -265,8 +233,8 @@ font-family: baskerville, times, serif;
 padding-top: 0px;
 display:table;
 width:100%;
-
 }
+
 #aboutus {
   font-family: "futura",helvetica,sans-serif;
   font-size: 20px;
@@ -283,14 +251,13 @@ width:100%;
 }
 
 #about {
-
   width: 80%;
   margin: 0 auto;
   padding-bottom: 25px;
   border-bottom: solid;
   border-width: thin;
-
 }
+
 .aboutus1 {
   padding-bottom: 30px;
 }

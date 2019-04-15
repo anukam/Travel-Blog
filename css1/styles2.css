@@ -1,24 +1,221 @@
-/*
-ul.nav li {
-    display: inline-block;
-    padding-right: 10px;
-    color: white;
-    background-color: red;
+h1 {
+  color: #2a5e50;
+  text-align: center;
+  text-decoration: line-through;
+  text-decoration-color: white;
+  font-family: courier;
+
 }
-#about_blue {
-  background-color:#6495ED;
-  color: blue;
+
+.GeorgiaHeading {
+  text-align: center;
+  color: #2a5e50;
+  font-family: Times;
+  font-weight: bold;
+  padding-top: 30px;
+  border-bottom: solid;
+  border-width: thin;
 }
-ul.nav a {
+
+.PlacestoSee {
+  font-family: baskerville, times, serif;
+  border-bottom: solid;
+  color: #2a5e50;
+  border-width: thin;
+
+}
+
+.Food {
+  font-family: baskerville, times, serif;
+  border-bottom: solid;
+  color: #2a5e50;
+  border-width: thin;
+
+}
+.NightLife {
+  font-family: baskerville, times, serif;
+  border-bottom: solid;
+  color: #2a5e50;
+  border-width: thin;
+}
+.col-4 {
+  text-align: center;
+}
+#Tbs {
+  padding-top: 10px;
+  color:#2a5e50;
+  font-family: Times;
+
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  font-family: baskerville, times, serif;
+  padding-top: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 0.5;
+  color: #2a5e50;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #2a5e50;
   color: white;
 }
-#about_yellow
-{
-  background-color: #FFEBCD;
-  color: orange;
+
+/*  */
+.topnav a.active {
+  background-color: #2a5e50;
+  color: white;
 }
-#important
-{
+
+
+  * {
+  box-sizing: border-box;
+}
+
+
+/* Style the submit button */
+form.example button {
+  float:right;
+  background: #2a5e50;
+  color: white;
+  font-size: 15px;
+  border: 1px;
+  border-left: none;
+  cursor: alias;
+  height: 25px;
+}
+
+
+/* search styles */
+  form.example input[type=text] {
+  float:right;
+  height:25px;
+  min-width:100px;
+  font-size: 15px;
+  border: 1px;
+  width: 50%;
+  background: transparent;
+  color: #2a5e50;
+  
+}
+form.example button:hover {
+  background: #296159;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+}
+
+
+#searchBox{
+  float: right;
+  padding-top: 30px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: auto;
+  padding-bottom: 0px;
+}
+
+/* Some left and right padding inside the container */
+.container1 {
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
   font-weight: bold;
+  color: #39C1BD;
 }
-*/
+
+.card1{
+width:300px;
+float:right;
+}
+
+.card2{
+width:300px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #39C1BD;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: baskerville, times, serif;
+  letter-spacing: 2px;
+}
+.icon-bar {
+  text-align:center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: run-in;
+  text-align: center;
+  padding: 3px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.button:hover {
+  background-color: #b0dbbf;
+}
+.icon-bar a:hover {
+  background-color: #296159;
+}
+
+.facebook {
+  background:#38a282;
+  color: white;
+}
+
+.twitter {
+  background: #38a282;
+  color: white;
+}
+
+.instagram {
+  background: #38a282;
+  color: white;
+}
+.whatwedo {
+  padding-top: 30px;
+  padding-right: 100px;
+  padding-bottom: 30;
+  padding-left: 75px;
+  font-size: 30px;
+  color: #2a5e50;
+  letter-spacing: 2px;
+  text-align: center;
+  font-style: italic;
+  margin: 10;
+  word-wrap: break-word;
+  font-family: baskerville, times, serif;
+}

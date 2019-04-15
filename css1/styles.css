@@ -19,7 +19,7 @@ ol li {
 }
 */
 h1 {
-  color: #39C1BD;
+  color: #2a5e50;
   text-align: center;
   text-decoration: line-through;
   text-decoration-color: white;
@@ -77,6 +77,7 @@ h1 {
   background-color: transparent;
   overflow: hidden;
   font-family: baskerville, times, serif;
+  padding-top: 30px;
 }
 
 /* Style the links inside the navigation bar */
@@ -88,18 +89,18 @@ h1 {
   text-decoration: none;
   font-size: 17px;
   line-height: 0.5;
-  color: #39C1BD
+  color: #2a5e50;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #39C1BD;
+  background-color: #2a5e50;
   color: white;
 }
 
 /*  */
 .topnav a.active {
-  background-color: #39C1BD;
+  background-color: #2a5e50;
   color: white;
 }
 
@@ -108,28 +109,34 @@ h1 {
   box-sizing: border-box;
 }
 
-/* search styles */
- form.example input[type=text] {
-  padding: 5px;
-  font-size: 15px;
-  border: 1px solid grey;
-  float: left;
-  width: 10%;
-  background: #f1f1f1;
-}
 
 /* Style the submit button */
 form.example button {
-  float: left;
-  width: 5%;
-  padding: 5px;
-  background: #39C1BD;
+  float:right;
+  background: #2a5e50;
   color: white;
   font-size: 15px;
-  border: 1px solid grey;
+  border: 1px;
   border-left: none; /* Prevent double borders */
   cursor: alias;
+  height: 25px;
 }
+
+#searchBox {
+  padding-top: 30px;
+}
+/* search styles */
+  form.example input[type=text] {
+  float:right;
+   height:25px;
+   min-width:100px;
+  font-size: 15px;
+  border: 1px;
+  width: 10%;
+  background: transparent;
+  color: #2a5e50;
+}
+
 
 form.example button:hover {
   background: #296159;
@@ -142,6 +149,10 @@ form.example::after {
   disp
 }
 
+
+#searchBox{
+  float: right;
+}
 
 .column1 {
   float: left;
@@ -156,14 +167,20 @@ form.example::after {
 .container1 {
 
   padding-top: 15px;
-  padding-right: 15px;
   padding-bottom: 15px;
-  padding-left: 15px;
   text-align: center;
   font-weight: bold;
-  color: #39C1BD;
+  color: #2a5e50;
 }
 
+.card1{
+width:300px;
+float:right;
+}
+
+.card2{
+width:300px;
+}
 
 .button {
   border: none;
@@ -171,7 +188,7 @@ form.example::after {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #39C1BD;
+  background-color: #2a5e50;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -184,17 +201,21 @@ form.example::after {
 }
 .whatwedo {
   padding-top: 75px;
-  padding-right: 100px;
   padding-bottom: 70px;
-  padding-left: 75px;
-  font-size: 30px;
   color: #bcbe00;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-align: center;
   font-style: italic;
-  margin: 10;
   word-wrap: break-word;
   font-family: baskerville, times, serif;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.icon-bar{
+  text-align:center;
+
+
 }
 
 /* Style the icon bar links */
@@ -213,50 +234,63 @@ form.example::after {
 }
 
 .facebook {
-  background:#58deda;
-  color: black;
+  background:#38a282;
+  color: white;
 }
 
 .twitter {
-  background: #58deda;
+  background: #38a282;
   color: white;
 }
 
 .instagram {
-  background: #58deda;
+  background: #38a282;
   color: white;
 }
 
+.w3-content{
+  display: table-cell; vertical-align: middle;
+
+}
 .AboutUs {
   padding-top: 20px;
-  padding-right: 300px;
-  padding-bottom: 50px;
-  padding-left: 300px;
+  padding-bottom: 30px;
 font-size: 30px;
-color: #39C1BD;
+color: #2a5e50;
 letter-spacing: 2px;
 text-align: center;
 font-style: italic;
 word-wrap: break-word;
 font-family: "futura",helvetica,sans-serif;
 padding-top: 0px;
+display:table;
+width:100%;
+
 }
 #aboutus {
   font-family: "futura",helvetica,sans-serif;
-  font-size: 17px;
-  background-image: url("https://3h854h1ibj2x19g1cg3nclgc-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/learn-more-border.png");
+  font-size: 20px;
+  border-bottom: solid;
   background-repeat: no-repeat;
   text-align: center;
-  background-size: 194px;
-  display: table;
-  width: 194px;
   margin: 0 auto;
   max-height: 73px;
-  padding: 26px 0;
-  color: #39C1BD;
+  color: #2a5e50;
   letter-spacing: 3px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+  border-width: thin;
+  padding-top: 20px;
 }
+
 #about {
-  border-style: dashed;
+
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: solid;
+  border-width: thin;
+
+}
+.aboutus1 {
+  padding-bottom: 30px;
 }

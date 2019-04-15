@@ -12,17 +12,15 @@
 <body>
 
 
-  <!-- The form -->
-  <form class="example" action="action_page.php">
-    <button type="submit"><i class="fa fa-search"></i></button>
-  </form>
+
 
   <div class="container">
 
     <h1>Travel Blog</h1>
-
+<div class="row">
+  <div class="col-10">
     <div class="topnav">
-      <a class="active" href="#home">Home</a>
+      <a class="active" href="">Home</a>
       <a href="#news">Asia</a>
       <a href="#news">Europe</a>
       <a href="#contact">Africa</a>
@@ -30,6 +28,16 @@
       <a href="#about">South America</a>
       <a href="#about">North America</a>
     </div>
+  </div>
+  <div class="col-2" id="searchBox">
+    <!-- The form -->
+    <form class="example" action="action_page.php">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <input type="text" placeholder="Search.." name="search">
+
+    </form>
+  </div>
+</div>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -67,12 +75,11 @@
     <span class="sr-only">Next</span>
   </a>
     </div>
-  </div>
   <div class="whatwedo">
     <p1> Every week we explore interesting countries, choose two and show their main attractions, culture, food and traditions. This week we decided to explore Georgia and Jamaica, as we come from those two countries </p1>
 </div>
 <div class="row">
-  <div class="column1">
+  <div class="col-sm-6">
     <div class="card1">
       <img src="images/beach-ocho-rios.jpg" alt="ocho rois" style="width:100%">
       <div class="container1">
@@ -80,20 +87,22 @@
       </div>
     </div>
   </div>
-  <div class="column1">
-    <div class="card1">
+  <div class="col-sm-6">
+    <div class="card2">
       <img src="images/kazbegi.jpg" alt="kazbegi" style="width:100%">
       <div class="container1">
-        <p><button class="button">Georgia</button></p>
+        <p><button class="button" onclick="location.href='Georgia.html'">Georgia</button></p>
       </div>
     </div>
   </div>
   </div>
-  <div class="AboutUs">
+  <div class="AboutUs" width="100%">
     <div class="w3-content" style="max-width:700px">
+      <div class="aboutus1">
     <h3 id="aboutus"> About Us </h3>
+    </div>
       <div class="w3container" id="about">
-    <p4>We are Ana and Jenea, we are very passionate about travelling and always wanted to share our experiences with others. Recently, our hobby became web-development, so we decided to create a website</p4>
+    <p4> We are Ana and Jenea, we are very passionate about travelling and always wanted to share our experiences with others. Recently, our hobby became web-development, so we decided to create a website</p4>
       </div>
   </div>
  </div>
@@ -105,6 +114,7 @@
 
 
 
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
